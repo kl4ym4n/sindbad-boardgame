@@ -7,7 +7,7 @@ export default defineConfig({
     port: 3000,
     open: true
   },
-  base: "/sindbad-boardgame/",
+  base: "",
   build: {
     assetsDir: "assets",
     // rollupOptions: {
@@ -21,10 +21,10 @@ export default defineConfig({
     //   },
     // },
   },
-  resolve: {
-    alias: {
-      "/assets/images/": "/sindbad-boardgame/assets/images/",
-      "/shaders/": "/sindbad-boardgame/shaders/",
-    },
-  },
+  // resolve: {
+  //   alias: {
+  //     "/assets/images/": "/sindbad-boardgame/assets/images/",
+  //     "/shaders/": "/sindbad-boardgame/shaders/",
+  //   },
+  // },
 }); 
