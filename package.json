@@ -2,7 +2,7 @@
   "name": "sindbad-boardgame",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kl4ym4n.github.io/sindbad-boardgame",
+  "homepage": "https://kl4ym4n.github.io/",
   "dependencies": {
     "cra-template": "1.2.0",
     "phaser": "^3.87.0",
